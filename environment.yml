@@ -1,0 +1,11 @@
+name: goldapp
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pandas
+  - matplotlib
+  - pip
+  - pip:
+      - streamlit
+      - yfinance
